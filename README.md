@@ -23,3 +23,9 @@ So, putting it all together, "guest:guest@localhost:5672" means connecting to an
 
 This occurs because the subscriber requires more time to process the queue, resulting in message accumulation.
 
+![Screenshot 2024-04-24 162642](https://github.com/nabiilahputri13/html-portfolio/assets/124870275/0e22e140-3484-472e-8b68-8a5f7a186399)
+
+![Screenshot 2024-04-24 162050](https://github.com/nabiilahputri13/html-portfolio/assets/124870275/a5749ff7-f977-4fab-ab15-14b85f2452c0)
+**Running multiple subscriber**
+
+The increase in messages in the queue happens because the publisher publishes messages faster than the subscriber receives and processes them.
