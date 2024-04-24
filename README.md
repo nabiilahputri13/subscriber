@@ -1,5 +1,5 @@
-#Tutorial 8
-##Nabiilah Putri Safa - 2206030426
+# Tutorial 8 ˚˖𓍢ִ໋🦢˚
+## Nabiilah Putri Safa - 2206030426
 -----------------------------------
 
 a. what is amqp?
@@ -17,3 +17,9 @@ In the context of "guest:guest@localhost:5672", each part represents different c
 "guest:guest": This part represents the username and password used for authentication. In this case, "guest" is both the username and the password. It's a common default configuration for some AMQP servers, used mainly for testing or development purposes. In a production environment, you would typically use more secure credentials.
 "localhost:5672": This part represents the hostname and port number of the AMQP server. "localhost" refers to the local machine, meaning that the AMQP server is running on the same machine where this connection is being established. "5672" is the default port number for AMQP connections.
 So, putting it all together, "guest:guest@localhost:5672" means connecting to an AMQP server running on the local machine, using the username and password "guest" for authentication, and communicating over port 5672.
+
+![Screenshot 2024-04-24 154618](https://github.com/nabiilahputri13/html-portfolio/assets/124870275/68abe185-3fa8-4fbb-9dd8-dfab928d5ee7)
+**Simulation slow subscriber**
+
+This occurs because the subscriber requires more time to process the queue, resulting in message accumulation.
+
